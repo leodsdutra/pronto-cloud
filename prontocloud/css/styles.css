@@ -130,3 +130,7 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+.cog-i-cogicon__cog .cog-i-cogicon__c {
+    visibility: hidden !important;
+}
