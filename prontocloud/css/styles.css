@@ -7,6 +7,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.article {
+    margin: 10px 20px 20px;
+}
 .main-container {
     display: block;
     width: 100vw;
@@ -14,18 +17,19 @@ body {
 }
 
 .container {
-    display: block;
+    display:block;
     float: left;
     padding: 20px;
     width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 header {
     background: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -62,6 +66,15 @@ p {
     color: #333;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#planejamento {
+    margin-bottom: 20px;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -69,6 +82,7 @@ ol {
 ol li {
     font-size: 1.4rem;
     color: #454545;
+    margin-bottom: 10px;
 
 }
 
@@ -77,7 +91,7 @@ section {
     display: block;
     float: left;
     font-size: 1.5rem; /* equivale a 15px */
-    padding: 20px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -131,6 +145,11 @@ footer small {
     display: block;
 }
 
-.cog-i-cogicon__cog .cog-i-cogicon__c {
-    visibility: hidden !important;
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+#tenho-interesse {
+    background-color: #bccbd8;
 }
